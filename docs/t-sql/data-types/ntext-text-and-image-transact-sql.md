@@ -35,7 +35,7 @@ Fixed and variable-length data types for storing large non-Unicode and Unicode c
 Variable-length Unicode data with a maximum string length of 2^30 - 1 (1,073,741,823) bytes. Storage size, in bytes, is two times the string length that is entered. The ISO synonym for **ntext** is **national text**.
   
 **text**  
-Variable-length non-Unicode data in the code page of the server and with a maximum string length of 2^31-1 (2,147,483,647). When the server code page uses double-byte characters, the storage is still 2,147,483,647 bytes. Depending on the character string, the storage size may be less than 2,147,483,647 bytes.
+Variable-length non-Unicode data in the code page of the server and with a maximum string length of 2^31-1 (2,147,483,647) bytes. When the server code page uses double-byte characters, the storage is still 2,147,483,647 bytes. Depending on the character string, the storage size may be less than 2,147,483,647 bytes.
   
 **image**  
 Variable-length binary data from 0 through 2^31-1 (2,147,483,647) bytes.
